@@ -54,18 +54,16 @@ cd EATLAB-Dispatch-Monitoring-System
 docker compose up --build
 ```
 
-```text
+---
 When the log shows
-```
 
 ```bash
 You can now view your Streamlit app in your browser.
   URL: http://0.0.0.0:8501
 ```
 
-```text
+---
 open http://localhost:8501
-```
 
 ---
 
@@ -73,6 +71,9 @@ open http://localhost:8501
 ### 1. Upload a video clip
 ### 2. Draw ROI on first frame -> press Confirm ROI
 <p align="center"> <img src="/demo/Input&CropROI.gif" width="48%"/> </p>
+
 ### 3. Monitoring live detections, IDs and counters
 <p align="center"> <img src="/demo/Feedback.gif" width="48%"/> </p>
+
 ### 4. Whenever a new ID appears or its label changes, the app pops up a feedback card: pick the correct label -> Save. The crop image (feedback/crops/…png) and a JSONL line are appended.
+<p align="center"> <img src="/demo/Demo.gif" width="48%"/> </p>
