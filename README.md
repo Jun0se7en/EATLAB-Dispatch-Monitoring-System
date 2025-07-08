@@ -36,6 +36,8 @@ predictions; all feedback is stored for future fine-tuning.
 ├─ Dockerfile
 └─ README.md
 
+---
+
 ## 3 Quick Start
 
 ### 3.1 Prerequisites
@@ -59,6 +61,8 @@ You can now view your Streamlit app in your browser.
 
 ```text
 open http://localhost:8501
+
+---
 
 ## 4 Demo Workflow
 ### 1. Upload a video clip
