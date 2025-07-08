@@ -35,6 +35,7 @@ predictions; all feedback is stored for future fine-tuning.
 ├─ docker-compose.yml
 ├─ Dockerfile
 └─ README.md
+```
 
 ---
 
@@ -51,16 +52,20 @@ git clone https://github.com/Jun0se7en/EATLAB-Dispatch-Monitoring-System.git
 cd EATLAB-Dispatch-Monitoring-System
 
 docker compose up --build
+```
 
 ```text
 When the log shows
+```
 
 ```bash
 You can now view your Streamlit app in your browser.
   URL: http://0.0.0.0:8501
+```
 
 ```text
 open http://localhost:8501
+```
 
 ---
 
