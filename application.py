@@ -265,7 +265,7 @@ def main():
 
                         if saved_key not in st.session_state:         # CHƯA feedback cho (id, class)
                             ph = st.empty()                           # placeholder gói toàn bộ expander
-                            st.warning("🛑 Video paused – please give feedback")
+                            # st.warning("🛑 Video paused – please give feedback")
                             with ph.expander(f"Feedback for ID {tid}", expanded=True):
                                 st.image(img, caption=f"Pred: {LABEL_ORDER[cls_pred]}")
 
@@ -280,8 +280,8 @@ def main():
                                     )
                                     st.session_state[saved_key] = True
                                     ph.empty()                        # xoá cả expander & header
-                                    st.rerun()
-                            st.stop()
+                                    # st.rerun()
+                            # st.stop()
                     
                     if cls_pred == CLS_DISH_KAKI and tid not in dish_ids:
                         dish_ids.add(tid); dish_cnt += 1
