@@ -2,7 +2,7 @@
 
 Real-time visual inspection for the *dispatch* line of a dessert shop.  
 DMS detects every tray / dish that passes the camera, classifies its
-state (*kakigori*, *empty*, …), tracks the item across frames and keeps
+state (*kakigori*, *empty*, *not_empty*), tracks the item across frames and keeps
 running counters.  The Streamlit demo lets operators correct wrong
 predictions; all feedback is stored for future fine-tuning.
 
