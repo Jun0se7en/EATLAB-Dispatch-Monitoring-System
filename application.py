@@ -185,7 +185,7 @@ def select_roi(first_bgr, max_w=720):
 
 def main():
     st.set_page_config("Kakigori Counter", layout="wide")
-    st.title("🍧 Kakigori Dish/Tray Counter – Realtime")
+    st.title("🍧 Kakigori Dish/Tray Monitoring System")
 
     uploaded = st.file_uploader("Upload video", type=["mp4", "avi", "mov"])
     if uploaded is None:
