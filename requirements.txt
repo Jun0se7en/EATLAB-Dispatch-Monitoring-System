@@ -1,0 +1,8 @@
+streamlit
+streamlit-drawable-canvas
+onnxruntime
+onnx
+ultralytics
+deep_sort_realtime
+numpy
+Pillow
