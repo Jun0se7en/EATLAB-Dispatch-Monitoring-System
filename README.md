@@ -8,7 +8,7 @@ predictions; all feedback is stored for future fine-tuning.
 
 ---
 
-## 1  Project Highlights
+## 1. Project Highlights
 | Module | Approach | Notes |
 |--------|----------|-------|
 | **Detection** | Fine-tuned **YOLOv8-l** | mAP<sub>50</sub> 99.385% |
@@ -20,7 +20,7 @@ predictions; all feedback is stored for future fine-tuning.
 
 ---
 
-## 2  Repository Layout
+## 2. Repository Layout
 
 ```text
 .
@@ -39,13 +39,13 @@ predictions; all feedback is stored for future fine-tuning.
 
 ---
 
-## 3 Quick Start
+## 3. Quick Start
 
-### 3.1 Prerequisites
+### 3.1. Prerequisites
 
 Docker Engine
 
-### 3.2 Build & Run
+### 3.2. Build & Run
 
 ```bash
 git clone https://github.com/Jun0se7en/EATLAB-Dispatch-Monitoring-System.git
@@ -67,7 +67,7 @@ open http://localhost:8501
 
 ---
 
-## 4 Demo Workflow
+## 4. Demo Workflow
 ### 1. Upload a video clip
 ### 2. Draw ROI on first frame -> press Confirm ROI
 <p align="center"> <img src="/demo/Input&CropROI.gif" width="48%"/> </p>
